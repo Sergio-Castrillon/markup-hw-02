@@ -1,3 +1,11 @@
+body {
+  margin: 0;
+}
+
+.table-above {
+  margin-bottom: 120px;
+}
+
 .web {
   font-family: 'Raleway';
   font-style: normal;
@@ -5,10 +13,17 @@
   font-size: 26px;
   line-height: 31px;
   color: #2196F3;
-  margin-left: 215px;
+  margin-left: 125px;
+}
+
+.study:hover {
+  color: #888787;
 }
 
 .study {
+  text-decoration: none;
+  cursor: pointer;
+  color: #212121;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -18,7 +33,12 @@
   padding-left: 93px;
 }
 
+.briefcase:hover {
+  cursor: pointer;
+}
+
 .briefcase {
+  text-decoration: none;
   color: #2196F3;
   font-family: 'Roboto';
   font-style: normal;
@@ -26,6 +46,50 @@
   font-size: 14px;
   line-height: 16px;
   padding-right: 50px;
+}
+
+.text-images1 {
+  color: #212121;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.text-images2 {
+  color: #757575;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.image {
+  border: 1px solid #EEEEEE;
+  
+}
+
+.images2 {
+  display: inline-block;
+  margin-left: 250px;
+  margin-bottom: 30px;
+  background: #FFFFFF;
+  border: 1px solid #ffffff;
+  border-bottom: 1px solid #adadad99;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.images {
+  margin-left: 30px;
+  display: inline-block;
+  margin-bottom: 30px;
+  background: #FFFFFF;
+  border: 1px solid #ffffff;
+  border-bottom: 1px solid #adadad99;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  width: 370.9px;
 }
 
 .contacts {
@@ -37,7 +101,32 @@
   padding-right: 344px;
 }
 
+.email:hover {
+  cursor: pointer;
+}
+
+.place {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 125px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contact {
+  padding-left: 125px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF99;
+  padding-bottom: 0px;
+}
+
 .email {
+  text-decoration: none;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -46,7 +135,12 @@
   color: #2196F3;
 }
 
+.number:hover {
+  cursor: pointer;
+}
+
 .number {
+  text-decoration: none;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -54,4 +148,57 @@
   line-height: 16px;
   color: #757575;
   padding-left: 50px;
+}
+
+.key1:hover {
+  cursor: pointer;
+  background-color: #2689da;
+}
+
+.set4 {
+  background-color: #2F303A;
+}
+
+.key1 {
+  margin-bottom: 50px;
+  margin-right: 8px;
+  margin-left: 539px;
+  border-radius: 4px;
+  border: solid 2px #2196F3;
+  background-color: #2196F3;
+}
+
+.keys:hover {
+  cursor: pointer;
+  background-color: #f8f8f8;
+}
+
+.keys {
+  margin-bottom: 50px;
+  margin-right: 8px;
+  border-radius: 4px;
+  border: solid 2px #F5F4FA;
+  background-color: #F5F4FA;
+}
+
+.letters-key-1 {
+  margin: 0;
+  padding: 6px 18px 6px 17px;
+  color: white;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.letters-keys {
+  margin: 0;
+  padding: 6px 18px 6px 17px;
+  color: #212121; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
 }
